@@ -19,6 +19,12 @@ body {
     cursor: pointer;
 }
 
+.heading-2{  
+    font-size: 40px;
+    font-weight: 700;
+    color:#151414;
+}
+
 /* banner styles */
 .banner-container {
     background-image: url("../images/banner/banner3.png");
@@ -54,9 +60,9 @@ body {
 .failures-container {
     display: flex;
     justify-content:space-around;
-    height: 70vh;
+    height: 100vh;
     align-items: center;
-    padding: 100px;
+    padding: 0px 100px;
 }
 
 .failure-img>img {
@@ -68,11 +74,7 @@ body {
 }
 
 .failure-text>h2 {
-    font-size: 40px;
-    font-weight: 700;
-    color:#151414;
     margin-bottom: 20px;
-
 }
 
 .failure-text > p, .failure-text li{
@@ -97,4 +99,62 @@ body {
 
 .failure-text li{
     line-height: 38px;
+}
+
+/* my plans section */
+.my-plans-container{
+    height: 100vh;
+    color:#151414;
+    padding-bottom: 130px;
+}
+
+.my-plans-container > h2{
+    text-align: center;
+}
+
+.plan-module-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 60px 100px 150px;
+
+}
+
+.plan-module > h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.plan-module > p{
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.my-plan-foot{
+    width: 80%;
+    border-radius: 5px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../images/gradient1.png"),url("../images/watch.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.my-plan-text{
+    margin-left: 60px;
+}
+
+.my-plan-text > h2{
+    color: white;
+}
+
+.my-plan-text button{
+    margin-top: 20px;
 }
